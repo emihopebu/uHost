@@ -41,11 +41,16 @@ body {
   width: calc(100% - 74px);
   vertical-align: middle;
 }
-.main-nav__item {
-  display: inline-block;
-}
 .main-nav__items {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+.main-nav__item {
+  display: inline-block;
+  margin: 0 16px;
+}
+.main-nav__item a {
+  text-decoration: none;
+  color: #0e4f1f;
 }
